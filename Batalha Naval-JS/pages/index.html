@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Batalha Naval</title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">                
+    </head>
+   <body>
+        <center>
+            <h1>Batalha Naval</h1>
+            <table id="field">
+
+            </table>
+            <br>
+
+            <h3 id="naviosRestantes"></h3>
+            <h3 id="jogadasRestantes"></h3>
+            <h3 id="endGame" class="invisible"></h3>
+
+            <table>
+                <tr>                                        
+                    <input type="button" id="btnEasy" value="EASY" onclick="easyGame()">                
+                    <input type="button" id="btnMedium" value="MEDIUM" onclick="mediumGame()">               
+                    <input type="button" id="btnHard" value="HARD" onclick="hardGame()">                                                                           
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <input type="button" class="invisible" id="reset" value="RESET" onclick="clearSea()">
+                </tr>
+            </table>            
+            <script src="../javascript/index.js"></script>
+        </center>
+   </body>
+</html>
